@@ -2,6 +2,11 @@ language: python
 
 python:
   - 2.7
+  - 2.6
+  - 3.3
+  - 3.5
+  - 3.2
+  - pypy
 
 # Mongo binds to 127.0.0.1 by default
 #build_image: drydock/u12pytpls:tip
